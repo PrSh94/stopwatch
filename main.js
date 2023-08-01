@@ -7,6 +7,9 @@ let minute = 0;
 let second = 0;
 let count = 0;
 
+// denotes timer is started or not
+var timer = false;
+
 startBtn.addEventListener('click', function () {
 	timer = true;
 	stopWatch();
@@ -29,7 +32,8 @@ resetBtn.addEventListener('click', function () {
 });
 
 function stopWatch() {
-	if (timer) {
+    // check timer is true or not
+	if (timer == true) {
 		count++;
 
 		if (count == 100) {
@@ -73,6 +77,7 @@ function stopWatch() {
 		document.getElementById('min').innerHTML = minString;
 		document.getElementById('sec').innerHTML = secString;
 		document.getElementById('count').innerHTML = countString;
+        // using setTimeout fun to check every 10 milisecond whether our timer is false or not to continue the function
 		setTimeout(stopWatch, 10);
 	}
 }
