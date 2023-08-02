@@ -33,6 +33,10 @@ The project consists of the following files:
 - `main.css`: The CSS file that styles the stopwatch interface.
 - `main.js`: The JavaScript file that implements the stopwatch functionality.
 
+Links
+Live Site URL:([https://qrcodecomponent-six.vercel.app/](https://stopwatch-lemon.vercel.app/))
+Video link: [https://youtu.be/Oqlb7tkyq90](https://youtu.be/Oqlb7tkyq90)
+
 ## Contributing
 
 If you would like to contribute to this project, you can follow these steps:
