@@ -5,9 +5,11 @@
 }
 
 body{
-    background-image: url(./asset/bg.jpeg);
+/*     background-image: url(./asset/bg.jpeg);
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size:cover; */
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
 }
 
 .TITLE{
